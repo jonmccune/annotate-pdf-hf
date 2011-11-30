@@ -1,0 +1,11 @@
+# For 2.3 <= python < 2.7:
+#   sudo aptitude install python-pip
+#   sudo pip install argparse
+
+###
+# Goal: Easily stick our own headers and footers on top of an existing
+# PDF document.  Originally conceived to make it easier to bulk print
+# papers for reviewing while keeping track of meta-information such as
+# the paper's "number" in the reviewing system.
+###
+
