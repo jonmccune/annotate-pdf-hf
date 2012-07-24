@@ -49,7 +49,7 @@ infile = args['infile'].replace('.pdf', '')
 
 # lhead is special since we use a different argument's value if
 # nothing is provided as input
-lhead = args['lhead'] or infile
+lhead = args['lhead'] or infile.replace('_','\\_')
 
 ## 1. mk temp dir
 temp_dir = tempfile.mkdtemp()
